@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+@media only screen and (max-width: 2560px) {
+    .cont100 {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+    .portafolio1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio3 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio4 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+}
+    .portafolio5 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio6 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio7 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio8 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1920
+*/
+@media only screen and (max-width: 1920px) {
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1920
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1680
+*/
+
+@media only screen and (max-width: 1680px) {
+	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1680
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1600
+*/
+
+@media only screen and (max-width: 1600px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1600
+*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1440
+*/
+@media only screen and (max-width: 1440px) {
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1440
+*/	
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1366
+*/
+@media only screen and (max-width: 1366px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1366
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1280
+*/
+
+@media only screen and (max-width: 1280px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1280
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1024
+*/
+
+@media only screen and (max-width: 1024px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1024
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 768
+*/
+@media only screen and (max-width: 768px) {
+    .portafolio1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio3 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio4 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+}
+    .portafolio5 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio6 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio7 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio8 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 768
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 600
+*/
+@media only screen and (max-width: 640px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 600
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 550
+*/
+@media only screen and (max-width: 564px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 550
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 480
+*/
+@media only screen and (max-width: 480px) {
+    .portafolio1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio3 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio4 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+}
+    .portafolio5 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio6 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio7 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio8 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 480
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 320
+*/
+@media only screen and (max-width: 320px) {
+    .portafolio1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio3 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio4 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 0px;
+}
+    .portafolio5 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio6 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio7 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio8 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+}

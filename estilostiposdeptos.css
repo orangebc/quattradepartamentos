@@ -1,0 +1,1479 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+@media only screen and (max-width: 2560px) {
+    .cont100 {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+    .cont100desarrollomas {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 30px;
+}
+    .contbullets {
+	height: auto;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 0px;
+	background-color: #933;
+}
+    .bullets {
+	height: auto;
+	width: 23%;
+	text-align: center;
+	float: left;
+	margin-right: 2.6%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 15px;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.encdescripcion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2em;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+.descripcion {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+  .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	word-spacing: 2px;
+}
+    .textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.5em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+    .contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 8.0%;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+    .encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+    .icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+}
+   .portafolio1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio3 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio4 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+}
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1680
+*/
+
+@media only screen and (max-width: 1680px) {
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	float: left;
+}
+  .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	word-spacing: 2px;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1680
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1600
+*/
+
+@media only screen and (max-width: 1600px) {
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 1.7em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+  .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	word-spacing: 0em;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 24px;
+	margin-left: 0px;
+} 
+.encdescripcion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1600
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1440
+*/
+@media only screen and (max-width: 1440px) {
+    .cont100desarrollomas {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 0px;
+	background-color: #933;
+}
+    .bullets {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 15px;
+}
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.6em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 19px;
+}
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 11.5%;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1440
+*/	
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1366
+*/
+@media only screen and (max-width: 1366px) {
+    .cont100desarrollomas {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding: 0px;
+	background-color: #933;
+}
+    .bullets {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 15px;
+}
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.6em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 19px;
+}
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 11.5%;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1366
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1280
+*/
+
+@media only screen and (max-width: 1280px) {
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.6em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 19px;
+}
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 11.5%;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1280
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1024
+*/
+@media only screen and (max-width: 1250px) {
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.6em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 19px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 25px;
+	margin-top: 9px;
+}	
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 0px;
+	line-height: 1em;
+	float: left;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.6em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-bottom: 0px;
+	float: left;
+}
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 11.5%;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1024
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 768
+*/
+@media only screen and (max-width: 768px) {
+    .cont100desarrollomas {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
+}	
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}	
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: none;
+}	
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 2em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 0px;
+	line-height: 1em;
+	float: left;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-bottom: 0px;
+	float: left;
+}
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 23.7%;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border: thin dashed #999;
+	margin-bottom: 5px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: auto;
+	width: 96%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+    .cont100desarrollomas {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.encdescripcion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 768
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 600
+*/
+@media only screen and (max-width: 640px) {
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}	
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: none;
+}	
+
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 24%;
+	text-align: center;
+	float: left;
+	margin-right: 0.5%;
+	margin-top: 0px;
+	padding: 0px;
+	border: thin dashed #999;
+	margin-bottom: 3px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 600
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 550
+*/
+@media only screen and (max-width: 564px) {
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}	
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: none;
+}	
+
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 24%;
+	text-align: center;
+	float: left;
+	margin-right: 0.5%;
+	margin-top: 0px;
+	padding: 0px;
+	border: thin dashed #999;
+	margin-bottom: 3px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+   .portafolio1 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+    .portafolio3 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+    .portafolio4 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: auto;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	float: left;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 550
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 480
+*/
+@media only screen and (max-width: 480px) {
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}	
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: none;
+}	
+    .bullet1A {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #00CCFF;
+	font-size: 1.7em;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 0px;
+	line-height: 1em;
+	float: left;
+}
+    .bullet2A {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.3em;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+	word-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-bottom: 0px;
+	float: left;
+}
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 24%;
+	text-align: center;
+	float: left;
+	margin-right: 0.5%;
+	margin-top: 0px;
+	padding: 0px;
+	border: thin dashed #999;
+	margin-bottom: 2px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 15%;
+	margin-right: 0%;
+	margin-left: 20%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 7%;
+	float: left;
+	padding-top: 0px;
+	text-align: center;
+}
+    .cajacierre {
+	height: auto;
+	width: 95%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 80%;
+	margin-right: 0%;
+	margin-left: 7%;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+    .iconorange {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 4%;
+	margin-right: 0%;
+	margin-left: 0%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+	display: none;
+}
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: auto;
+	width: 96%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 480
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 320
+*/
+@media only screen and (max-width: 360px) {
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}	
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: none;
+}	
+
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 48%;
+	text-align: center;
+	float: left;
+	margin-right: 0.5%;
+	margin-top: 0px;
+	padding: 0px;
+	border: thin dashed #999;
+	margin-bottom: 2px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-left: 0px;
+}
+}
+@media only screen and (max-width: 320px) {
+    .contbullets {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}	
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+    .linebullet1 {
+	width: 100%;
+	text-align: center;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	display: none;
+}	
+
+.contenc {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 48%;
+	text-align: center;
+	float: left;
+	margin-right: 0.5%;
+	margin-top: 0px;
+	padding: 0px;
+	border: thin dashed #999;
+	margin-bottom: 2px;
+}
+.encbullet1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5%;
+	padding-left: 5%;
+	float: left;
+	line-height: 1.1em;
+}
+.icon1 {
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	height: auto;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}	
+	.textocorro {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	line-height: 1.4em;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-left: 0px;
+}
+ 
+}

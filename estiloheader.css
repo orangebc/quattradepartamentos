@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+@media only screen and (max-width: 2560px) {
+header, nav{
+	display: block;
+}
+
+/* Definimos un ancho 100% y una altura fija para nuestro menú */
+header{
+	height: 80px;
+	position: relative;
+	width: 100%;
+	background-position: right;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+}
+
+/* El logo sera flotado a la izquierda */
+#logo{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 65px;
+	text-indent: -9999px;
+	background-image: url(images/logoquadratta.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 55px;
+    }
+
+    /* Nuestro nav con id #menu lo flotaremos a la derecha*/
+    #menu{float: right;}   
+
+    /* Quitamos estilos por defecto de el tag UL */
+    #menu ul{
+	list-style: none;
+	font-size: 1.0 em;
+    }
+        
+    /* Centramos y ponemos los textos en mayuscula */
+    #menu li{
+    display: block;
+    float: left;
+    text-align: center;
+    }
+            
+    /* Damos estilo a nuestros enlaces */
+    #menu li a{
+	font-size: 1.0 em;
+	display: block;
+	color: #999;
+	text-decoration: none;
+	height: 80px;
+	line-height: 75px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+    }
+    #menu li a:hover{
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #00CCFF;
+	font-size: 1.0 em;
+    }
+    /* Estilos #nav-mobile y lo ocultamos */
+    #nav-mobile{
+	display: none;
+	width: 60px;
+	height: 80px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: .6;
+	background-image: url(images/nav.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+    }   
+    /* Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado */
+    #nav-mobile.nav-active{
+	font-family: "roboto_condensedlight", sans-serif;
+    opacity: 1;
+    }
+    /* Content */
+    #content{
+	width: 80%;
+	margin: 60px 10%;
+	text-align: center;
+	overflow: hidden;
+    }
+    h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #624c3f;
+    }
+
+    footer {
+	height: auto;
+	width: 100%;
+	padding-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2em;
+	height: 40px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-bottom: 0px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.contlogos {
+	float: none;
+	height: auto;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    MEDIA QUERY
+*/
+
+@media only screen and (max-width: 1680px) {
+
+#logo{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 65px;
+	text-indent: -9999px;
+	background-image: url(images/logoquadratta.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+#logo{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 65px;
+	text-indent: -9999px;
+	background-image: url(images/logoquadratta.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 25px;
+    }
+}	
+@media only screen and (max-width: 768px) {
+    h2{
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0 em;
+	color: #FFFFFF;
+    }
+ 
+ 
+	/* mostramos #nav-mobile */
+    #nav-mobile{
+	display: block;
+    }
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+    #menu{
+	width: 100%;
+	float: none;
+	padding-top: 75px;
+	position: relative;
+	z-index: 1;
+    }
+    /* Convertimos nuestra lista de enlaces en un menú horizontal */
+    #menu ul{
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	max-height: 0;
+	overflow: hidden;
+    }
+    /* estilos para los LI del menu */
+    #menu li{
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0 em;
+	float: none;
+	background-color: #FFFFFF;
+	position: relative;
+	height: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+    }
+
+    /* Quitamos el borde del ultimo item del menú */
+    #menu li:last-child{
+	border-bottom: 0;
+}
+    #menu li a{
+    padding: 15px 0;
+    height: auto;
+    line-height: normal;
+    }
+    #menu li a:hover{
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0 em;
+	background-color: #FFFFFF;
+}
+
+    /* Agregamos una animación al despligue del menú */
+    #menu ul.open-menu{
+	max-height: 600px;
+	-webkit-transition: max-height .6s;
+	-moz-transition: max-height .6s;
+	-ms-transition: max-height .6s;
+	-o-transition: max-height .6s;
+	transition: max-height .6s;
+        }
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-bottom: 0px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}		
+		}
+		
+	/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    MEDIA QUERY
+*/
+
+@media only screen and (max-width: 640px) {
+.contlogos {
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}
+@media only screen and (max-width: 360px) {
+.contlogos {
+	float: none;
+	height: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}

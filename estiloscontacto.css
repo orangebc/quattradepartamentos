@@ -1,0 +1,1007 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body{
+	font: 14px 'roboto_condensedlight', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+@media only screen and (max-width: 2560px) {
+    .conttraiangulo {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+	.triangulo_inf {
+	width: 0;
+	height: 0;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-top: 90px solid #0CF;
+	margin-right: auto;
+	margin-left: auto;
+}
+    .cont100 {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+    .contcita {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 6em;
+	height: 52px;
+	width: 96%;
+	text-align: right;
+	padding-top: 5px;
+	line-height: 0.8em;
+	margin-right: 4%;
+}
+    .encmapa {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 6em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 0px;
+	line-height: 0.8em;
+	margin-right: 0%;
+	float: left;
+	margin-left: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+    .contformulario {
+	height: auto;
+	width: 92%;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 20px;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+    .contcierre {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+}
+    .cajacierre {
+	height: auto;
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 35px;
+	width: 8%;
+	margin-right: 0%;
+	margin-left: 0%;
+	float: left;
+	padding-top: 5px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2em;
+	height: 40px;
+	width: 18%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 2em;
+	height: 40px;
+	width: 18%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 35px;
+	width: 49%;
+	margin-right: 0%;
+	margin-left: 5%;
+	float: left;
+	padding-top: 5px;
+	text-align: right;
+}
+iframe {
+	text-decoration: none;
+	cursor: default;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1920
+*/
+@media only screen and (max-width: 1920px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1920
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1680
+*/
+
+@media only screen and (max-width: 1680px) {
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1680
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1600
+*/
+
+@media only screen and (max-width: 1600px) {
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 50px;
+	margin-top: 9px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1600
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1440
+*/
+@media only screen and (max-width: 1440px) {
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1440
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1366
+*/
+@media only screen and (max-width: 1366px) {
+    .contformulario {
+	height: auto;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 20px;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 6em;
+	height: 52px;
+	width: 97%;
+	text-align: right;
+	padding-top: 5px;
+	line-height: 0.8em;
+	margin-right: 3%;
+}
+    .cajacierre {
+	height: auto;
+	width: 74%;
+	margin-right: 13%;
+	margin-left: 13%;
+}
+    .cajaorange {
+	height: auto;
+	width: 74%;
+	margin-right: 13%;
+	margin-left: 13%;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1366
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1280
+*/
+
+@media only screen and (max-width: 1280px) {
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 40px;
+	margin-top: 9px;
+}	
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 6em;
+	height: 52px;
+	width: 97%;
+	text-align: right;
+	padding-top: 5px;
+	line-height: 0.8em;
+	margin-right: 3%;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1280
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1024
+*/
+
+@media only screen and (max-width: 1024px) {
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 25px;
+	margin-top: 9px;
+}	
+	.triangulo_inf {
+	width: 0;
+	height: 0;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-top: 60px solid #0CF;
+	margin-right: auto;
+	margin-left: auto;
+}	
+    .contcita {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 4.5em;
+	height: 42px;
+	width: 97%;
+	text-align: right;
+	padding-top: 10px;
+	line-height: 0.8em;
+	margin-right: 3%;
+}
+    .encmapa {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 4.5em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 0px;
+	line-height: 0.8em;
+	margin-right: 0%;
+	float: left;
+	margin-left: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 35px;
+	width: 8%;
+	margin-right: 0%;
+	margin-left: 4%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 40px;
+	width: 16%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 40px;
+	width: 16%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 35px;
+	width: 51%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .cajacierre {
+	height: auto;
+	width: 90%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 50%;
+	margin-right: 0%;
+	margin-left: 10%;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1024
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 768
+*/
+@media only screen and (max-width: 768px) {
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 15px;
+	margin-top: 9px;
+}	
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 3em;
+	height: 32px;
+	width: 94%;
+	text-align: right;
+	padding-top: 20px;
+	line-height: 0.8em;
+	margin-right: 6%;
+}
+    .encmapa {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 3em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 0px;
+	line-height: 0.8em;
+	margin-right: 0%;
+	float: left;
+	margin-left: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 8%;
+	margin-right: 0%;
+	margin-left: 4%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 16%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 16%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 51%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .cajacierre {
+	height: auto;
+	width: 95%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 50%;
+	margin-right: 0%;
+	margin-left: 20%;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}	
+
+
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 768
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 600
+*/
+@media only screen and (max-width: 600px) {
+	.triangulo_inf {
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 40px solid #0CF;
+	margin-right: auto;
+	margin-left: auto;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2.1em;
+	height: 32px;
+	width: 60%;
+	text-align: left;
+	padding-top: 25px;
+	line-height: 0.8em;
+	margin-right: 0%;
+	float: left;
+	margin-left: 4%;
+}
+    .encmapa {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2.1em;
+	height: 52px;
+	width: 90%;
+	text-align: center;
+	padding-top: 0px;
+	line-height: 0.8em;
+	margin-right: 0%;
+	float: left;
+	margin-left: 0px;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 10%;
+	margin-right: 0%;
+	margin-left: 25%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 20%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	float: left;
+	padding-top: 0px;
+	text-align: center;
+}
+    .cajacierre {
+	height: auto;
+	width: 95%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 65%;
+	margin-right: 0%;
+	margin-left: 13%;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 600
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 550
+*/
+@media only screen and (max-width: 550px) {
+	.triangulo_inf {
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 40px solid #0CF;
+	margin-right: auto;
+	margin-left: auto;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2.0em;
+	height: 32px;
+	width: 60%;
+	text-align: left;
+	padding-top: 25px;
+	line-height: 0.8em;
+	margin-right: 0%;
+	float: left;
+	margin-left: 4%;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 15%;
+	margin-right: 0%;
+	margin-left: 20%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 7%;
+	float: left;
+	padding-top: 0px;
+	text-align: center;
+}
+    .cajacierre {
+	height: auto;
+	width: 95%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 65%;
+	margin-right: 0%;
+	margin-left: 17%;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 550
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 480
+*/
+@media only screen and (max-width: 480px) {
+	.triangulo_inf {
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 40px solid #0CF;
+	margin-right: auto;
+	margin-left: auto;
+}
+    .bullets {
+	font-family: "AllerLightRegular", sans-serif;
+	color: #999999;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-right: 0%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 150px;
+	margin-top: 9px;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2.0em;
+	height: 32px;
+	width: 90%;
+	text-align: center;
+	padding-top: 10px;
+	line-height: 0.8em;
+	margin-right: 5%;
+	float: left;
+	margin-left: 5%;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 15%;
+	margin-right: 0%;
+	margin-left: 20%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 25%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 7%;
+	float: left;
+	padding-top: 0px;
+	text-align: center;
+}
+    .cajacierre {
+	height: auto;
+	width: 95%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 80%;
+	margin-right: 0%;
+	margin-left: 7%;
+	float: left;
+	padding-top: 10px;
+	text-align: right;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+    .iconorange {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 4%;
+	margin-right: 0%;
+	margin-left: 0%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+	display: none;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 480
+*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 320
+*/
+@media only screen and (max-width: 320px) {
+    .contlogo {
+	float: left;
+	height: 65px;
+	width: 171px;
+	margin-left: 60px;
+	margin-top: 9px;
+}
+    .encagendarcita {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: 32px;
+	width: 90%;
+	text-align: center;
+	padding-top: 10px;
+	line-height: 0.8em;
+	margin-right: 5%;
+	float: left;
+	margin-left: 5%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+    .contformulario {
+	height: auto;
+	width: 92%;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 20px;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	float: left;
+	padding-top: 0px;
+	text-align: center;
+}
+    .telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 40%;
+	margin-right: 0%;
+	margin-left: 13%;
+	float: left;
+}
+    .telefono2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 40px;
+	width: 40%;
+	margin-right: 0%;
+	margin-left: 1%;
+	float: left;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: 35px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 7%;
+	float: left;
+	padding-top: 0px;
+	text-align: center;
+}
+    .cajacierre {
+	height: auto;
+	width: 95%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+    .sitedesign {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.1em;
+	height: 25px;
+	width: 100%;
+	margin-right: 0%;
+	margin-left: 0%;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+}
+    .cajaorange {
+	height: auto;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+    .iconorange {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 4%;
+	margin-right: 0%;
+	margin-left: 0%;
+	float: left;
+	padding-top: 0px;
+	text-align: left;
+	display: none;
+}
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Quattra Departamentos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="fuentes.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estiloshome.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estiloheader.css" media="screen" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function() {
+var btn_movil = $('#nav-mobile'),
+menu = $('#menu').find('ul');
+// Al dar click agregar/quitar clases que permiten el despliegue del menú
+btn_movil.on('click', function (e) {
+e.preventDefault();
+var el = $(this);
+el.toggleClass('nav-active');
+menu.toggleClass('open-menu');
+})
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/stylesslider.css" type="text/css" media="screen" />
+<script src="js/jquery.flexslider-min.js"></script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<!-- html5.js - IE  9 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- funcion para conectar el FlexSlider -->
+<script type="text/javascript">
+$(window).load(function() {
+$('.flexslider').flexslider();
+});
+</script>
+	
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<!-- html5.js - IE  9 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+    body {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+}
+    a:link,a:active,a:visited,a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+</style>
+<!--BARRA DE NAVEGACION -->
+<header>
+<a href="#" id="logo">Logo</a>
+<nav id="menu">
+<a href="#" class="nav-mobile" id="nav-mobile"></a>
+<ul>
+<li><a href="index.html">INICIO</a></li>
+<li><a href="tiposdeptos.html">DEPARTAMENTOS DISPONIBLES</a></li>
+<li><a href="galeria.html">GALERÍA DE IMÁGENES</a></li>
+<li><a href="contacto.html">UBICACIÓN Y CONTACTO</a></li>
+</ul>
+</nav>
+</header>
+<div class="triangulo_inf"></div>
+<!--TONER -->
+<div class="cont100">
+<div class="contbullets">
+<div class="bullets">
+<div class="linebullet1"></div>
+<div class="bullet1">EDIFICIO EXCLUSIVO CON 8</div>
+<div class="linebullet1"></div>
+<div class="bullet2">DEPARTAMENTOS DE LUJO</div>
+<div class="linebullet1"></div>
+<div class="bullet3">2 RECÁMARAS OPCIÓN A 3</div>
+<div class="linebullet1"></div>
+<div class="bullet4">ELEVADOR DIRECTO A PISO</div>
+<div class="linebullet1"></div>
+<div class="bullet5">TODOS LOS SERVICIOS</div>
+<div class="linebullet1"></div>
+<div class="iconsbullets">
+<div class="icon1"><img src="images/iconelevador.jpg" width="100%" height="auto"></div>
+<div class="icon1"><img src="images/iconrec.jpg" width="100%" height="auto"></div>
+<div class="icon1"><img src="images/iconlavadora.jpg" width="100%" height="auto"></div>
+<div class="icon1"><img src="images/iconsanitario.jpg" width="100%" height="auto"></div>
+<div class="icon1"><img src="images/icontv.jpg" width="100%" height="auto"></div>
+<div class="icon1"><img src="images/iconestufa.jpg" width="100%" height="auto"></div>
+<div class="icon2"><img src="images/icongarage.jpg" width="100%" height="auto"></div>
+</div>
+</div>
+<div class="col2">
+Quattra Luxury Apartments consta de 8 departamentos de dos recámaras con opción a tres, 2 baños completos, cocina equipada, sala de tv, área de lavado, cuarto de servicio, elevador directo a piso
+y acabados de lujo.<br><br>
+Si buscas invertir en un inmueble, sin duda Quattra Luxury Apartments es una excelente oportunidad ya que su ubicación es en una zona de alta plusvalía con potencial a ser como un Polanco en la Cd. de Puebla.
+</div>
+<div class="col3">
+Quattra Luxury Apartments es construído por Corro y Asociados Arquitectos, empresa con amplio curriculum y experiencia desarrollando proyectos de vanguardia  en México.<br><br>
+Nuestros desarrollos cuentan hasta con 5 años de garantía, un valor agregado que pocos pueden ofrecer ya que trabajamos con profesionales en cada aspecto y etapa de la construcción.
+</div>
+<div class="col4">
+<div class="contcualidades1">
+<div class="linebullet1"></div>
+<div class="encbold">EXCELENTE UBICACIÓN</div>
+<div class="textocualidades">Localizado en una de las zonas más exclusivas de la Cd. de Puebla.</div>
+<div class="iconcualidades"><img src="images/iconubicacion.jpg" width="100%" height="auto"></div>
+<div class="linebullet1"></div>
+</div>
+<div class="contcualidades2">
+<div class="linebullet1"></div>
+<div class="encbold">SEGURIDAD</div>
+<div class="textocualidades">Cuentan con asociación de colonos
+que velan por la seguridad.</div>
+<div class="iconcualidades"><img src="images/iconseguridad.jpg" width="100%" height="auto"></div>
+<div class="linebullet1"></div>
+</div>
+
+<div class="contcualidades3">
+<div class="linebullet1"></div>
+<div class="encbold">CERCA DE TODO</div>
+<div class="textocualidades">Centros comerciales, restaurantes, hospitales, escuelas y mucho más.</div>
+<div class="iconcualidades"><img src="images/iconcerca.jpg" width="100%" height="auto"></div>
+<div class="linebullet1"></div>
+</div>
+<div class="contcualidades4">
+<div class="linebullet1"></div>
+<div class="encbold">PLUSVALÍA</div>
+<div class="textocualidades">Ubicado en una colonia de gran potencial, como un Polanco en Puebla.</div>
+<div class="iconcualidades"><img src="images/iconplusvaia.jpg" width="100%" height="auto"></div>
+<div class="linebullet1"></div>
+</div>
+</div>
+</div>
+<!--SLIDE DE IMAGENES -->
+<div class="contsilde">
+<section id="contenedor">
+<div class="flexslider">
+<ul class="slides">
+<li><img src="images/SLIDE1.jpg" /></li>
+<li><img src="images/SLIDE2.jpg"/></li>
+<li><img src="images/SLIDE3.jpg"/></li>
+<li><img src="images/SLIDE4.jpg"/></li>
+</ul>
+</div>
+</section>
+</div>
+
+<!--TONER -->
+<div class="cont100desarrollomas">
+<div class="contbullets">
+<div class="bullets">
+<div class="linebullet1"></div>
+<div class="bullet1A">UN DESARROLLO DE</div>
+<div class="bullet2A">CORRO Y ASOCIADOS ARQUITECTOS</div>
+<div class="linebullet1"></div>
+<div class="textocorro">Tu inversión está garantizada por un grupo de profesionales en construcción y desarrollo de vivienda a nivel nacional.</div>
+<div class="linebullet1"></div>
+
+</div>
+<div class="col2A">
+<div class="numgrande">15</div>
+<div class="titulo">Años de<br>
+Experiencia</div>
+</div>
+<div class="col3A">
+<div class="numgrande">500</div>
+<div class="titulo">Propiedades<br>
+Vendidas</div>
+</div>
+<div class="col4A">
+<div class="numgrande">68</div>
+<div class="titulo">Desarrollos <br>
+Construidos</div>
+</div>
+<div class="col5A">
+<div class="numgrande">5</div>
+<div class="titulo">Proyectos en<br>
+ Desarrollo</div>
+</div>
+</div>
+</div>
+
+<div class="cont100">
+<div class="contcita">
+<div class="contlogo"><img src="images/logoquadratta.jpg" width="100%" height="auto"></div>
+<div class="encagendarcita">DESEO AGENDAR UNA CITA</div>
+</div>
+
+<div class="contformulario">
+<section class="formulario">
+  <form action="contacto.php" method="post">
+<label for="nombre">nombre:</label>
+ <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required />
+ <label for="email">email:</label>
+ <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required />
+<label for="telefono">teléfono:</label>
+ <input id="telefono" type="telefono" name="telefono" placeholder="Anote su número con 10 dígitos" required />
+ <label for="agendarcita">Agendar cita:</label>
+ <input id="agendarcita" type="agendarcita" name="agendarcita" placeholder="Anote día y hora para agendar cita" required />
+ <label for="mensaje">mensaje:</label>
+ <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+ <input id="submit" type="submit" name="submit" value="Enviar" />
+</form>
+</section>
+</div>
+</div>
+<footer>
+<div class="telefono1">TELÉFONO (222) 169.1718</div>
+<div class="domicilio">Av. San Martín Texmelucan No. 15 Col. La Paz, Puebla.</div>
+</footer>
+<div class="sitedesign"><a href="http://www.orangeboutiquecreativa.com/" target="_blank">Web designed by www.orangeboutiquecreativa.com</a></div>
+
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+h1 {
+	font-size: 72px;
+	line-height: 1.5;
+	color: #2c3e50;
+	font-weight: 100;
+	font-family: "roboto_condensedlight", sans-serif;
+}
+
+#containerpersonaje {
+	width: 300px;
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+}
+
+.section--personaje {
+	height: 400px;
+	width: 261px;
+	float: left;
+}
+#containertexto {
+	width: 800px;
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+	margin-left: 100px;
+}
+.section--texto {
+	height: 400px;
+	width: 800px;
+	float: left;
+	margin-left: 100px;
+}
+#containerthink {
+	width: 100%;
+	height: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: repeat;
+}
+.section--thinkleft {
+	height: 800px;
+	width: 25%;
+	float: left;
+}
+.section--about {
+	height: 800px;
+	width: 50%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.section--thinkright {
+	height: 800px;
+	width: 25%;
+	float: right;
+}
+#containerhowit {
+	width: 100%;
+	height: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+	background-image: url(../imagenes/mapa.jpg);
+}
+.section--howit {
+	height: 800px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#containerads4 {
+	width: 100%;
+	height: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	float: left;
+	background-image: url(../imagenes/fondoads4you.jpg);
+}
+.section--ads4 {
+	height: 800px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.section--ads4man {
+	height: 800px;
+	width: 300px;
+	margin-right: 0px;
+	margin-left: 0px;
+	float: right;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#containerservices {
+	width: 100%;
+	height: 760px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imagenes/fondoazul.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+}
+.section--tegustaria {
+	height: 150px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.section--personajes {
+	height: 341px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+#container3en1 {
+	width: 100%;
+	height: 1010px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imagenes/fondomorado.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	float: left;
+}
+.section--3en1 {
+	height: 570px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.section--publicidad {
+	height: 460px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+#containerefectividad {
+	width: 100%;
+	height: 1300px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	background-image: url(../imagenes/fondoladrillos.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.section--publicidadefectiva {
+	height: 180px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.section--persefetividad {
+	height: 460px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+#containermanteletas {
+	width: 100%;
+	height: 2243px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	float: left;
+}
+.section--manteles {
+	height: 200px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.section--personajemantel {
+	height: 400px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+#containerdatostecnicos {
+	width: 100%;
+	height: 1300px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	background-color: #FFF;
+}
+#containerpreguntas {
+	width: 100%;
+	height: 1500px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imagenes/fondopreguntas.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	float: left;
+}
+#containerservices2 {
+	width: 100%;
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+#herramientas1 {
+	width: 100%;
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+.section--tegustaria2 {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.section--pensemos2 {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.section--herramientas {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+.section--personajes2 {
+	height: 341px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-bottom: 0px;
+	float: left;
+	background-color: #F09;
+}
+
+section {
+	text-decoration: none;
+}
+
+.section--red {
+  background-color: #e74c3c;
+}
+
+.section--textos {
+  background-color: #9b59b6;
+}
+
+.section--yellow {
+  background-color: #f1c40f;
+}
+
+.section--green {
+  background-color: #2ecc71;
+}
